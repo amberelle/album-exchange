@@ -1,0 +1,57 @@
+
+.box1:hover::after{
+  @extend .box:hover::after;
+  content: "Alt-J, Tesselate";
+}
+.box2:hover::after{
+  @extend .box:hover::after;
+  content: "Michael Jackson, Bad";
+}
+.box3:hover::after{
+  @extend .box:hover::after;
+  content: "Beastie Boys, Bad";
+}
+.box4:hover::after{
+  @extend .box:hover::after;
+  content: "Sia, We Are Born";
+}
+.box5:hover::after{
+  @extend .box:hover::after;
+  content: "Frank Sinitra, Bests";
+}
+.box6:hover::after{
+  @extend .box:hover::after;
+  content: "Michael Buble, Summertime";
+}
+
+
+.box1 {
+  @include album(url(../images/img1.jpg));
+}
+.box2{
+   @include album(url(../images/img2.jpg))
+}
+.box3{
+   @include album(url(../images/img3a.jpeg))
+}
+.box4{
+   @include album(url(../images/img4.jpg))
+}
+.box5{
+   @include album(url(../images/img5.jpg))
+}
+.box6{
+   @include album(url(../images/img6.jpg))
+}
+.box7{
+   @include album(url(../images/img7.jpg))
+}
+.box8{
+   @include album(url(../images/img8.jpg))
+}
+.box9{
+   @include album(url(../images/img9.jpg))
+}
+.box10{
+   @include album(url(../images/img10.jpg))
+}

@@ -1,0 +1,6 @@
+@mixin album($image){
+  background:$image;
+}
+@mixin info($artist, $album){
+  content: $artist, $album;
+}
