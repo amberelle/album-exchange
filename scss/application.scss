@@ -12,6 +12,7 @@ body {
   background: white;
   margin:0;
   font-family:$lg-font;
+
 }
 
 body:hover {
@@ -68,21 +69,36 @@ li{
 }
 .content-wrap{
 
-  margin-left:10%;
-  margin-right:10%;
+  // margin-left:10%;
+  // margin-right:10%;
 }
 
 .box{
-  width:190px;
-  height:190px;
+  width:195px;
+  height:195px;
   border:1px solid;
   margin:10px;
-  box-shadow: 5px 5px 5px grey;
+  box-shadow: 3px 3px 3px grey;
   position:relative;
   transition-property: width, height;
+  transition-duration: .2s;
 }
 
 .box:hover{
   width: 200px;
   height: 200px;
+  box-shadow:7px 7px 7px grey;
+
+}
+.featured{
+  margin:5%;
+  padding:5%;
+  border:3px solid;
+  background:white;
+}
+.gallery{
+  margin:5%;
+  padding:5%;
+  border:3px solid;
+    background:white;
 }
